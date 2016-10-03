@@ -7,4 +7,65 @@ and open the template in the editor.
     Created on : Oct 2, 2016, 10:17:13 PM
     Author     : Alexis
 */
+html{
+    font-family: Tahoma, Geneva, sans-serif;
+    
+}
+body{
+    margin:0 15% 10% 15%;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+header p{
+    text-align:center;
+}
+h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#Elon{
+    font-weight: bold;
+}
+.date{
+    float:right;
+    display:inline;
+    font-weight:normal;
+}
+.jobtitle{
+    font-style: italic;
+}
+.city{
+    font-weight:normal
+}
+ 
+h3, h2{
+    margin: 0;
+}
 
+p{
+    line-height:0;
+    margin-top: .75%;
+}
+
+ul{
+    margin: 0 -.20em 0 -.2em
+}
+
+h2{
+    font-size:125%;
+    margin-top: 2%;
+}
+h3{
+    font-size: 90%;
+}
+div{
+    margin-top: 2%;
+}
+#mock{
+   color:red;
+}
+#degree{
+    font-style:italic;
+}
