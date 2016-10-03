@@ -51,7 +51,7 @@ h2{
 .city{
     font-weight:normal
 }
- 
+
 h3, h2{
     margin: 0;
 }
@@ -74,7 +74,7 @@ div{
 }
 
 #mock{
-   color:red;
+    color:red;
 }
 
 #degree{
@@ -92,15 +92,18 @@ section{
 
 @media  only screen and (max-width:500px){
     .mobile{
-        visibility:visible;
+        display:inline;
     }
-    
+
     .large, .date{
         display:none;
     }
-    
+
     p{
         margin-top: 3%;
     }
-    
+    #degree{
+       margin-bottom: .5em;
+    }
+
 }
