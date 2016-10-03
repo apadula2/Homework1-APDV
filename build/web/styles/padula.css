@@ -9,40 +9,45 @@ and open the template in the editor.
 */
 html{
     font-family: Tahoma, Geneva, sans-serif;
-    
 }
 
 .mobile{
     display: none;
 }
+
 body{
     margin:0 15% 10% 15%;
 }
+
 h1{
     text-align: center;
     text-transform: uppercase;
 }
+
 header p{
     text-align:center;
-    margin-bottom: 1.5em;
 }
+
 h2{
+    font-size:100%;
     text-decoration: underline;
     text-transform: uppercase;
-    font-size:100%;
-
 }
+
 #Elon{
     font-weight: bold;
 }
+
 .date{
-    float:right;
     display:inline;
+    float:right;
     font-weight:normal;
 }
+
 .jobtitle{
     font-style: italic;
 }
+
 .city{
     font-weight:normal
 }
@@ -63,12 +68,15 @@ ul{
 h3{
     font-size: 90%;
 }
+
 div{
     margin-top: 2%;
 }
+
 #mock{
    color:red;
 }
+
 #degree{
     font-style:italic;
 }
@@ -86,9 +94,11 @@ section{
     .mobile{
         visibility:visible;
     }
+    
     .large, .date{
         display:none;
     }
+    
     p{
         margin-top: 3%;
     }
