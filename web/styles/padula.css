@@ -11,6 +11,10 @@ html{
     font-family: Tahoma, Geneva, sans-serif;
     
 }
+
+.mobile{
+    display: none;
+}
 body{
     margin:0 15% 10% 15%;
 }
@@ -20,10 +24,13 @@ h1{
 }
 header p{
     text-align:center;
+    margin-bottom: 1.5em;
 }
 h2{
     text-decoration: underline;
     text-transform: uppercase;
+    font-size:100%;
+
 }
 #Elon{
     font-weight: bold;
@@ -46,17 +53,13 @@ h3, h2{
 
 p{
     line-height:0;
-    margin-top: .75%;
+    margin-top: 1%;
 }
 
 ul{
     margin: 0 -.20em 0 -.2em
 }
 
-h2{
-    font-size:125%;
-    margin-top: 2%;
-}
 h3{
     font-size: 90%;
 }
@@ -68,4 +71,26 @@ div{
 }
 #degree{
     font-style:italic;
+}
+
+section{
+    margin-bottom: 1.5em;
+}
+
+@viewport{
+    width: 972px;
+    zoom:1;
+}
+
+@media  only screen and (max-width:500px){
+    .mobile{
+        visibility:visible;
+    }
+    .large, .date{
+        display:none;
+    }
+    p{
+        margin-top: 3%;
+    }
+    
 }
